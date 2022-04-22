@@ -12,7 +12,7 @@
         <label for="check" class="menu-btn">
             <i class="fas fa-bars"></i>
         </label>
-        <a href="index.php" class="logo">Big Momma's Pizzeria</a>
+        <a href="login.php" class="logo">Big Momma's Pizzeria</a>
         <ul class="navlinks">
             <li>
                 <a href="menu.php">Menu</a>

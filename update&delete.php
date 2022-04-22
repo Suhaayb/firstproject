@@ -11,7 +11,7 @@ require "process.php";
      $stmt->bindParam(":Afbeelding", $_POST['Afbeelding']);
     $stmt->execute();
 
-    header('Location: order.php');
+    header('Location: admin.php');
  }
  else if (isset($_POST['delete'])) {
     $sql = "DELETE FROM menu 
@@ -20,9 +20,9 @@ require "process.php";
     $stmt->bindParam(":ID", $_POST['ID']);
     $stmt->execute();
 
-    header('Location: order.php');
+    header('Location: admin.php');
     exit();
 } else {
-    header('Location: order.php');
+    header('Location: admin.php');
     exit();
 }
