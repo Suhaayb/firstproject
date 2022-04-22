@@ -8,7 +8,6 @@ $password = '';
 $database = 'minicrud';
 
 // Server is localhost with
-// port number 3308
 $host='localhost';
 $mysqli = new mysqli($host, $user,
     $password, $database);
