@@ -10,10 +10,10 @@ require "process.php";
      $stmt->bindParam(":Afbeelding", $_POST['Afbeelding']);
         $stmt->execute();
 
-        header('Location: order.php');
+        header('Location: admin.php');
         exit();
     } else {
-        header('Location: order.php');
+        header('Location: admin.php');
         exit();
 }
 
